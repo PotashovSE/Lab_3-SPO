@@ -13,7 +13,6 @@ int set_f (HANDLE pipe,map<string, string> &data, istringstream *parser,string &
 int get_f (HANDLE pipe, map<string, string> data, istringstream *parser);
 int list_f(HANDLE pipe, map<string, string> data);
 int delete_f(HANDLE pipe, map<string, string> &data, istringstream *parser);
-int quit(HANDLE pipe);
 
 int main()
 {
